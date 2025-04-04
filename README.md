@@ -45,7 +45,7 @@ QuickPass Generator is a simple and easy-to-use web tool that helps you create s
 <span>Desktop Design</span><br/>
 <a href="#" target="_blank" >
 <img src="./img/randomPasswrodGeneratorUIUXLayout.png" width="325px"/>
-<img src="./img/randomPasswrodGeneratorUIUXLayout2.png" width="325px"/>
+<img src="./img/randomPasswrodGenerator2UIUXLayout.png" width="325px"/>
 </a>
 
 <span>Cover</span><br/>
