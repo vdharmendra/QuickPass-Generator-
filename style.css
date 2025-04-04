@@ -1,0 +1,72 @@
+/* RESET DEFAULT CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background: #8afeb0;
+    color: #fff;
+}
+.containerBox{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+.displayPassword{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+}
+.containerBox h1.headingTitle{
+    /* font-weight: 500; */
+    font-size: 38px;
+}
+.containerBox h1.headingTitle span{
+    color: #094328;
+    border-bottom: 4px solid #094328;
+    padding-bottom: 7px;
+    font-size: 46px;
+}
+.displayPassword i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.displayPassword input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+.containerBox button i{
+    width: 28px;
+    margin-right: 10px;
+}
+.containerBox button{
+    border: 0;
+    outline: 0;
+    background: #094328;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color color 0.3s;
+}
+.containerBox button:hover{
+    color: #094328;
+    background: #fff;
+    /* transform: scale(1.1); */
+    box-shadow: 0px 2px 16px #094328;
+}

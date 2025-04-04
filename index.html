@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="QuickPass Generator - Generate Strong and Secure Random Passwords Quickly">
+    <meta name="description" content="QuickPass Generator allows you to create secure and random passwords in seconds, protecting your online accounts and personal data with ease.">
+    <meta name="keywords" content="quick password generator, strong passwords, random passwords, online security, password generator tool, password protection">
+    <meta name="author" content="QuickPass Generator Team">
+
+    <!-- BOOTSTRAP LINK -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- CONATINER -->
+    <div class="containerBox">
+        <h1 class="headingTitle">Generate a <br><span>Random Password</span></h1>
+        <div class="displayPassword">
+            <input type="text" id="password" placeholder="Password">
+            <i class="bi bi-copy" onclick="copyPassword()"></i>
+        </div>
+        <button onclick="createPassword()"><i class="bi bi-lightning-charge-fill"></i> Genetate Password</button>
+    </div>
+    <!-- SCRIPT LINK -->
+    <script src="main.js"></script>
+    
+</body>
+</html>
